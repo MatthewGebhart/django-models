@@ -4,8 +4,9 @@
 {% block content %}
     <div>
         <h2>{{ snack.name }}</h2>
-        <p>Rating: {{ snack.rating }}</p>
-        <p>Reviewer: {{ snack.reviewer }}</p>
+        <p>Purchaser: {{ snack.purchaser }}</p>
+        <p>Description: {{ snack.description }}</p>
+        <img src="{{ snack.image_url }}" alt=""/>
     </div>
 
 {% endblock content %}

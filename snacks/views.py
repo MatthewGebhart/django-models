@@ -10,7 +10,7 @@ class SnackListView(ListView):
     model = Snack
 
 
-class SnackDetailView(ListView):
+class SnackDetailView(DetailView):
     template_name = 'snack_detail.html'
     model = Snack
 
